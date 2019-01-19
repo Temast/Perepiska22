@@ -13,7 +13,7 @@ public class ChatController {
     File chatFile;
 
     public ChatController(String nazvanie) {
-        chatFile = new File("Z:\\chats\\" + nazvanie);
+        chatFile = new File("E:\\chats\\" + nazvanie);
         //если чат существует открываем его и загружаем сообщения
         if (chatFile.exists() && !chatFile.isDirectory()) {
             //todo загрузить файл в чат
